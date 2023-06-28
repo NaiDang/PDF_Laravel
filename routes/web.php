@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::get('/exportPDF', 'App\Http\Controllers\exportPDFController@index');
 
 Route::get('/exportPDF/pdf', 'App\Http\Controllers\exportPDFController@pdf');

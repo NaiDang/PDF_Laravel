@@ -32,12 +32,12 @@
             <table class="table table-striped table-bordered">
                 <thead>
                     <tr>
-                        <th>id</th>
-                        <th>name</th>
-                        <th>birthday</th>
-                        <th>email</th>
-                        <th>phone</th>
-                        <th>address</th>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Birthday</th>
+                        <th>Email</th>
+                        <th>Phonenumber</th>
+                        <th>Address</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -47,7 +47,7 @@
                         <td>{{ $value->name }}</td>
                         <td>{{ $value->birthday}}</td>
                         <td>{{ $value->email }}</td>
-                        <td>{{ $value->phone }}</td>
+                        <td>{{ $value->phonenumber }}</td>
                         <td>{{ $value->address}}</td>
                     </tr>
                     @endforeach
